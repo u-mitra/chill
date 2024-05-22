@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#searchInput {
+    width: 300px;
+    padding: 10px;
+}
+
+#searchButton {
+    padding: 10px;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.result-item {
+    margin-bottom: 20px;
+}
+
+.result-item img {
+    max-width: 100px;
+}
+
+#player {
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#episodeControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
